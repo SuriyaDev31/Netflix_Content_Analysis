@@ -10,7 +10,6 @@
 
 ## 🗂️ Table of Contents
 
-
 1.🎯 Project Objective & Summary
 
 2.📦 Problem Statement & Business Problem
@@ -138,56 +137,60 @@
             ├── 📂 Folder Structure & Code Organization & Implementation
             ├── ▶️ Usage / How to Run
             └── 🌐 Live Demo / Deployment Link
-🏗️ Project Setup
+### 🏗️ Project Setup
 
 * The project is organized using a modular folder structure to ensure maintainability and reproducibility. Raw data, processed datasets, notebooks, visual outputs, and dashboards are stored separately to keep the workflow organized.
 
 * This structure helps data analysts collaborate easily and maintain clear documentation of the entire pipeline.
 
-💻 Installation Instructions
+### 💻 Installation Instructions
 
-### Clone repository
+#### Clone repository
 git clone https://github.com/<your-username>/Netflix_Content_Analysis.git
 
-### Navigate to project
+#### Navigate to project
 cd Netflix_Content_Analysis
 
-### Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
-📂 Folder Structure & Code Organization & Implementation
+### 📂 Folder Structure & Code Organization & Implementation
 
-    Netflix_Content_Analysis/
-    data/
-    ├── raw/
-    │   └── netflix_titles.csv
-    └── processed/
-        └── cleaned_data.csv
-    notebooks/
-    ├── 01_data_loading.ipynb
-    ├── 02_data_cleaning.ipynb
-    └── 03_eda_visualization.ipynb
-    dashboards/
-    └── Netflix_Overview_Dashboard.twbx
-    Dashboard_Screenshots/
-    ├── Netflix_Overview.png
-    └── Genre_Duration_Insights.png
-    outputs/
-    └── visuals/
-        ├── content_type_distribution.png
-        ├── country_wise_content.png
-        ├── genre_distribution.png
-        ├── content_by_year.png
-        └── rating_breakdown.png
+    netflix_content_analysis/
+    ├── data/
+    │   ├── raw/
+    │   │   └── netflix_titles.csv
+    │   └── processed/
+    │       └── cleaned_data.csv
+    │
+    ├── notebooks/
+    │   ├── 01_data_loading.ipynb
+    │   ├── 02_data_cleaning.ipynb
+    │   └── 03_eda_visualization.ipynb
+    │
+    ├── dashboards/
+    │   └── Netflix_Overview_Dashboard.twbx
+    │
+    ├── Dashboard_Screenshots/
+    │   ├── netflix_overview.png
+    │   └── genre_duration_insights.png
+    │
+    ├── outputs/
+    │   └── visuals/
+    │       ├── content_type_distribution.png
+    │       ├── country_wise_content.png
+    │       ├── genre_distribution.png
+    │       ├── content_by_year.png
+    │       └── rating_breakdown.png
+    │
+    ├── README.md
+    └── requirements.txt
 
-    README.md
-
-    requirements.txt
-
-
-▶️ Usage / How to Run
+### ▶️ Usage / How to Run
 
 * Download the dataset from Kaggle.
+
+* Dataset Link : https://www.kaggle.com/datasets/shivamb/netflix-shows/data
 
 * Place the dataset in the raw data folder.
 
@@ -207,14 +210,13 @@ pip install -r requirements.txt
 
 * Refer to /visuals/ for exported EDA graphs and plots.
 
-🌐 Live Demo / Deployment Link
+### 🌐 Live Demo / Deployment Link
 
 The final interactive dashboard can be published using Tableau Public.
 
-Example:
+NetflixContentOverview - https://public.tableau.com/app/profile/suriya.prakash3073/viz/Netflix_Content_Overview/NetflixContentOverview
 
-https://public.tableau.com/profile/username
-
+GenreDurationInsights -  https://public.tableau.com/app/profile/suriya.prakash3073/viz/Netflix_Genre_Duration_Insights/GenreDurationInsights
 
 ## Step 6.🧩 Dataset Information (Data Source, Data Details & Data Dictionary)
 
@@ -222,16 +224,25 @@ https://public.tableau.com/profile/username
 
 * Source: Kaggle - Netflix Titles Dataset
 
+* Dataset Link : https://www.kaggle.com/datasets/shivamb/netflix-shows/data
+
 * Total Records: 8,807
 
 * Key Columns:
     * show_id 
+    
     * type 
+
     * title 
+
     * country 
+
     * date_added 
+
     * release_year 
+
     * rating duration 
+
     * listed_in
 
 * Processed Fields Created:
@@ -570,15 +581,13 @@ This project demonstrates several important data analytics skills:
 
 ## Step 18.📚 References & Resources
 
-Netflix Dataset – Kaggle
-
-Python Documentation
-
-Pandas Documentation
-
-Tableau Documentation - Tableau Public Help Docs
-
-Matplotlib + Seaborn User Guide
+- [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)  
+- [Tableau Documentation](https://help.tableau.com/)  
+- [Pandas Documentation](https://pandas.pydata.org/docs/)  
+- [Matplotlib Documentation](https://matplotlib.org/stable/)  
+- [Seaborn Documentation](https://seaborn.pydata.org/)  
+- [Plotly Documentation](https://plotly.com/python/)  
+- [Python Documentation](https://docs.python.org/3/) 
 
 ## Step 19.👨‍💻 Authors / Contributors
 
